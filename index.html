@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Luxury Car Comparison</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+  <h1>🚘 Luxury Car Comparison</h1>
+  <p>Compare Premium Cars Smartly</p>
+</header>
+
+<!-- TOP CONTROLS -->
+
+<section class="top-controls">
+
+  <input type="text"
+         id="search"
+         placeholder="Search car...">
+
+  <select id="brandFilter">
+    <option value="all">All Brands</option>
+  </select>
+
+  <select id="sortCars">
+    <option value="default">Sort By</option>
+    <option value="low">Price Low to High</option>
+    <option value="high">Price High to Low</option>
+  </select>
+
+  <button id="themeToggle">
+    🌙 Mode
+  </button>
+
+</section>
+
+<!-- COMPARE -->
+
+<section class="compare-box">
+
+    <select id="car1">
+        <option value="">Select Car 1</option>
+    </select>
+
+    <select id="car2">
+        <option value="">Select Car 2</option>
+    </select>
+
+    <button onclick="compareCars()">
+        Compare
+    </button>
+
+</section>
+
+<section id="result" class="result"></section>
+
+<!-- RESULT -->
+
+<section id="result" class="result"></section>
+
+<!-- EMI CALCULATOR -->
+
+<section class="emi-box">
+
+  <input type="number"
+         id="loan"
+         placeholder="Loan Amount">
+
+  <input type="number"
+         id="rate"
+         placeholder="Interest Rate">
+
+  <input type="number"
+         id="years"
+         placeholder="Years">
+
+  <button onclick="calculateEMI()">
+    Calculate EMI
+  </button>
+
+  <h2 id="emiResult"></h2>
+
+</section>
+
+<!-- PRICE FILTER -->
+
+<section class="range-box">
+
+  <label>Max Price</label>
+
+  <input type="range"
+         id="priceRange"
+         min="10000"
+         max="300000"
+         step="5000">
+
+</section>
+
+<!-- CARS -->
+
+<section id="carContainer"
+         class="car-grid">
+
+</section>
+
+<!-- RESULT -->
+
+<section id="result"
+         class="result">
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

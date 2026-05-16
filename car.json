@@ -1,0 +1,91 @@
+[
+  {
+    "model": "Tesla Model S",
+    "brand": "Tesla",
+    "price": 85000,
+    "mileage": 120,
+    "maintenance": 300,
+    "speed": 250
+  },
+
+  {
+    "model": "BMW X5",
+    "brand": "BMW",
+    "price": 65000,
+    "mileage": 18,
+    "maintenance": 1200,
+    "speed": 240
+  },
+
+  {
+    "model": "Audi A6",
+    "brand": "Audi",
+    "price": 60000,
+    "mileage": 20,
+    "maintenance": 1000,
+    "speed": 235
+  },
+
+  {
+    "model": "Mercedes C-Class",
+    "brand": "Mercedes",
+    "price": 70000,
+    "mileage": 19,
+    "maintenance": 1300,
+    "speed": 250
+  },
+
+  {
+    "model": "Toyota Fortuner",
+    "brand": "Toyota",
+    "price": 50000,
+    "mileage": 15,
+    "maintenance": 700,
+    "speed": 190
+  },
+
+  {
+    "model": "Honda Civic",
+    "brand": "Honda",
+    "price": 25000,
+    "mileage": 28,
+    "maintenance": 600,
+    "speed": 210
+  },
+
+  {
+    "model": "Ford Mustang",
+    "brand": "Ford",
+    "price": 55000,
+    "mileage": 14,
+    "maintenance": 900,
+    "speed": 260
+  },
+
+  {
+    "model": "Hyundai Creta",
+    "brand": "Hyundai",
+    "price": 22000,
+    "mileage": 22,
+    "maintenance": 400,
+    "speed": 180
+  },
+
+  {
+    "model": "Kia Seltos",
+    "brand": "Kia",
+    "price": 24000,
+    "mileage": 21,
+    "maintenance": 450,
+    "speed": 185
+  },
+
+  {
+    "model": "Lamborghini Huracan",
+    "brand": "Lamborghini",
+    "price": 250000,
+    "mileage": 8,
+    "maintenance": 5000,
+    "speed": 325
+  }
+]
